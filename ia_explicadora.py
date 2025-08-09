@@ -22,10 +22,13 @@ import streamlit.components.v1 as components
 
 
 
-# importando css lentinho pros cria
+# Função para ler o arquivo CSS
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-with    open("styles.css") as f:
-        st.markdown(f"<style>{f.read()}</stylestr>", unsafe_allow_html=True)
+# Carrega o CSS logo no início
+load_css("styles.css")
 
 
 # dados iniciais de treino (fase 1A)
@@ -463,5 +466,6 @@ elif st.session_state.etapa == 5:
         """
 
         components.html(html_code, height=600)
+
 
     # fim
