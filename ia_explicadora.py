@@ -405,6 +405,7 @@ elif st.session_state.etapa == 5:
             padding: 30px;
             font-family: 'Inter', sans-serif;
             width: 100%;
+            box-sizing: border-box;
         }
 
         .card {
@@ -418,14 +419,16 @@ elif st.session_state.etapa == 5:
             cursor: pointer;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
-        
-            width: 200px;
-            max-width: 900px;
-            height: 100px;
+            overflow: hidden;
+            min-height: 200px;
             max-height: 200px;
             border: 2px solid #FF4B4B;
             border-radius: 10px;
         }
+
+        .card:hover {
+            max-height: 400px;
+
 
         .card .info {
             opacity: 0;
@@ -468,10 +471,11 @@ elif st.session_state.etapa == 5:
         </div>
         """
 
-        components.html(html_code, height=600)
+        components.html(html_code, height=800, width=1000)
 
 
     # fim
+
 
 
 
