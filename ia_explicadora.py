@@ -418,7 +418,7 @@ elif st.session_state.etapa == 5:
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
         
-            width: 100%;
+            width: 200px;
             max-width: 900px;
             height: 100px;
             max-height: 200px;
