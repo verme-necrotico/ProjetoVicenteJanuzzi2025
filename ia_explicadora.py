@@ -382,8 +382,8 @@ elif st.session_state.etapa == 5:
                 -webkit-backdrop-filter: blur(2px);
                 border: 2px solid #FF4B4B;
                 border-radius: 10px;
-                width: 2000px;
-                height: 650px;
+                width: 1120px;
+                height: 450px;
                 padding: 30px;
                 margin: auto;
 
@@ -469,6 +469,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
