@@ -1,0 +1,20 @@
+/* imagem de fundo */
+.st-emotion-cache-z4kicb {
+    background-image: url("https://i.im.ge/2025/08/01/Jtq6rC.background.png");
+    background-size: 100%
+}
+
+/* botaozaoao */
+.st-key-1B button {
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+
+/* container */
+.st-key-container_input {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border-color: rgb(96, 60, 60);
+    padding: 20px;
+}
