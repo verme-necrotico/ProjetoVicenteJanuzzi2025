@@ -465,10 +465,11 @@ elif st.session_state.etapa == 5:
         </div>
         """
 
-        components.html(html_code, height=800, width=1000)
+        components.html(html_code, height=600, width=1000)
 
 
     # fim
+
 
 
 
