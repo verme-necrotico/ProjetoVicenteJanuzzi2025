@@ -383,7 +383,7 @@ elif st.session_state.etapa == 5:
                 border: 2px solid #FF4B4B;
                 border-radius: 10px;
                 width: 1120px;
-                height: 450px;
+                height: 250px;
                 padding: 30px;
                 margin: auto;
 
@@ -469,6 +469,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
