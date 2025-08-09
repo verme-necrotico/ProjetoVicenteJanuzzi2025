@@ -420,14 +420,10 @@ elif st.session_state.etapa == 5:
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
             overflow: hidden;
-            min-height: 200px;
-            max-height: 200px;
+            height: 200px;
             border: 2px solid #FF4B4B;
             border-radius: 10px;
         }
-
-        .card:hover {
-            max-height: 400px;
 
 
         .card .info {
@@ -475,6 +471,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
