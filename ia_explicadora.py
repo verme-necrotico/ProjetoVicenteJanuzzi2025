@@ -404,8 +404,6 @@ elif st.session_state.etapa == 5:
             gap: 20px;
             padding: 30px;
             font-family: 'Inter', sans-serif;
-            width: 100%;
-            box-sizing: border-box;
         }
 
         .card {
@@ -420,11 +418,11 @@ elif st.session_state.etapa == 5:
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
             overflow: hidden;
-            height: 200px;
+            height: 100px;
+            max-height: 200px;
             border: 2px solid #FF4B4B;
             border-radius: 10px;
         }
-
 
         .card .info {
             opacity: 0;
@@ -471,6 +469,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
