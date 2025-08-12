@@ -418,7 +418,7 @@ elif st.session_state.etapa == 5:
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
             overflow: hidden;
-            height: 230px;
+            height: 170px;
             max-height: 250px;
             border: 2px solid #FF4B4B;
             border-radius: 10px;
@@ -469,6 +469,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
