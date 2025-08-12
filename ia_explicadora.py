@@ -440,7 +440,7 @@ elif st.session_state.etapa == 5:
 
         .card:hover .info {
             opacity: 1;
-            max-height: 200px;
+            max-height: 300px;
             margin-top: 20px;
         }
         </style>
@@ -465,10 +465,11 @@ elif st.session_state.etapa == 5:
         </div>
         """
 
-        components.html(html_code, height=630, width=1000)
+        components.html(html_code, height=600, width=1000)
 
 
     # fim
+
 
 
 
