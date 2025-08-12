@@ -426,6 +426,7 @@ elif st.session_state.etapa == 5:
 
         .card .info {
             opacity: 0;
+            height: 200px;
             max-height: 200px;
             transition: opacity 0.3s ease, max-height 0.4s ease;
             margin-top: 0px;
@@ -469,6 +470,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
