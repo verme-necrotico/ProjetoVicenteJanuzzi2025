@@ -288,9 +288,8 @@ elif st.session_state.etapa == 3:
                 st.write("•  E então, procurei por numerais que possuem 4 dígitos, indicando **anos** (ex: 2025).")
                 st.write("✅ Informações de locais extraídas:", locais if locais else "Nenhum local identificado")
                 st.write("✅ Informações de datas extraídas:", datas if datas else "Nenhuma data identificada")
-                st.markdown("""
-                Lorem ipsum dolor sit amet
-                """)
+
+                
 
             # explicação contextual
                 st.write("Em aplicações reais, esse processo pode ser feito com modelos mais robustos que analisam o **contexto**, como os usados em **assistentes virtuais** e sistemas de busca.")
@@ -471,6 +470,7 @@ elif st.session_state.etapa == 5:
 
 
     # fim
+
 
 
 
